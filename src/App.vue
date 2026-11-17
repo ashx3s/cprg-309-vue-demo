@@ -5,8 +5,8 @@ import ConditionalRender from './components/ConditionalRender.vue';
 import DeclarativeRender from './components/DeclarativeRender.vue';
 import EventListener from './components/EventListener.vue';
 import FormBinding from './components/FormBinding.vue';
-
-const title = "Resident Evil Characters"
+import ListRender from './components/ListRender.vue';
+const title = "VueJS Tutorial"
 
 
 </script>
@@ -20,6 +20,7 @@ const title = "Resident Evil Characters"
     <EventListener />
     <FormBinding />
     <ConditionalRender />
+    <ListRender />
   </main>
 </template>
 
