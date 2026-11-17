@@ -1,5 +1,6 @@
 <script setup>
 import CharacterList from './components/CharacterList.vue';
+import DeclarativeRender from './components/DeclarativeRender.vue';
 
 const title = "Resident Evil Characters"
 
@@ -10,6 +11,7 @@ const title = "Resident Evil Characters"
   <main>
     <h1>{{ title }}</h1>
     <CharacterList />
+    <DeclarativeRender />
   </main>
 </template>
 
