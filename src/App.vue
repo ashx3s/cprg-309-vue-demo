@@ -1,4 +1,5 @@
 <script setup>
+import AttributeBinding from './components/AttributeBinding.vue';
 import CharacterList from './components/CharacterList.vue';
 import DeclarativeRender from './components/DeclarativeRender.vue';
 
@@ -12,6 +13,7 @@ const title = "Resident Evil Characters"
     <h1>{{ title }}</h1>
     <CharacterList />
     <DeclarativeRender />
+    <AttributeBinding />
   </main>
 </template>
 
